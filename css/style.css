@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    outline:none;
+}
+img{
+    border:none;
+}
+ul{
+    list-style:none;
+}
+
+.clear{
+    clear:both;
+}
+#page{
+    padding-top:200px;
+}
+.icons{
+    overflow:auto;
+    margin:0 auto;
+    background:url(/img/icons-bg.png) no-repeat;
+    width:313px;
+    height:92px;
+    padding:32px 0 0 48px;
+}
+.icons li{
+    display:block;
+    float:left;
+    position:relative;
+    margin-right:21px;
+}
+.icons a{
+    display:block;
+    zoom:1;
+}
+.icoTest{
+   background:url(/img/ico-test.png) no-repeat;
+}
+.icoPos1{
+    height:55px;
+    width:56px;
+}
+.icoPos2{
+    margin-top:9px;
+    background-position:0 -59px;
+    width:52px;
+    height:38px;
+}
+.icoPos3{
+    background-position:0 -100px;
+    height:56px;
+    width:38px;
+
+}
+.icoPos4{
+    background-position:0 -159px;
+    height:54px;
+    width:56px;
+}
+.iconLock{
+    opacity:0.5;
+    filter: alpha(opacity = 50);
+    cursor:default;
+}
+.timer{
+    opacity:1;
+    display:block;
+    z-index:2;
+    position:absolute;
+    top:20px;
+    left:0;
+    text-align:center;
+    width:100%;
+    font:14px "Trebuchet MS","Arial";
+    color:#fff;
+    text-shadow:#000 1px 1px 0px;
+}
+.vip-icon{
+    top:70%;
+    left:60%;
+    background-position: 0 -216px;
+    width:21px;
+    height:21px;
+    position:absolute;;
+    z-index:3;
+}
