@@ -7,7 +7,7 @@ $actions = array(
         'css_class' => 'icoTest icoPos1',
         'title' => 'Test 1',
         'vip' => false,
-        'rest_time' => 3,
+        'rest_time' => 0,
         'recovery_time' => 600,
     ),
     1 => array(
@@ -15,7 +15,7 @@ $actions = array(
         'css_class' => 'icoTest icoPos2',
         'title' => 'Test 2',
         'vip' => false,
-        'rest_time' => 2,
+        'rest_time' => 428,
         'recovery_time' => 660,
     ),
     2 => array(
@@ -31,7 +31,7 @@ $actions = array(
         'css_class' => 'icoTest icoPos4',
         'title' => 'Test 4',
         'vip' => false,
-        'rest_time' => 1,
+        'rest_time' => 150,
         'recovery_time' => 550,
     ),
 );
