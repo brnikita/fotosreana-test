@@ -24,6 +24,7 @@ function init(){
 
         function iconClick(){
             scope.iconClickHandler();
+            return false;
         }
 
         if(this.icon["vip"]){
@@ -44,7 +45,7 @@ function init(){
             seconds = Math.ceil(modMinutes),
             iconTime = {
                 m: minutes,
-                s: seconds
+                s: (seconds.toString().length - 1)? seconds : "0" + seconds
             };
         return iconTime.m + ":" + iconTime.s;
     }
@@ -86,7 +87,6 @@ function init(){
                 alert("Only for VIP!");
             }
         }
-        return false;
     }
 
     iconEventHandlers["Test 1"] = function(){
